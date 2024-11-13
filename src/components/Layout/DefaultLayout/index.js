@@ -4,7 +4,7 @@ import styles from './DefaultLayout.module.scss';
 import Sidebar from './Sidebar';
 
 const cx = classNames.bind(styles);
-console.log(cx);
+
 function DefaultLayout({ children }) {
     return (
         <div className={cx('wrapper')}>
