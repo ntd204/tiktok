@@ -5,6 +5,7 @@
     --white: #fff;
     --text-color: #333;
     --text-color: #161823;
+    --font-family: 'Regular', sans-serif;
     // Default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1150px;
@@ -41,12 +42,12 @@ a[href] {
 
 // Fonts emmbeded
 @font-face {
-    font-family: ProximaNova;
+    font-family: 'Semibold', sans-serif;
     src: url('/assets/fonts/TikTokFont-Semibold.woff2');
     font-weight: 600;
 }
 @font-face {
-    font-family: ProximaNova;
+    font-family: var(--font-family);
     src: url('/assets/fonts/TikTokFont-Regular.woff2');
     font-weight: 400;
 }
