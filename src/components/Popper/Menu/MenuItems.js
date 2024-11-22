@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import Button from '~/components/Layout/components/Button';
+import Button from '~/layouts/components/Button';
 import styles from './Menu.module.scss';
 const cx = classNames.bind(styles);
 function MenuItems({ data, onClick }) {
